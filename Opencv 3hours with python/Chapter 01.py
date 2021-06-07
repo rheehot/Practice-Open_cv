@@ -8,7 +8,7 @@ print("Package Imported")
 # cv.imshow("Original",img)
 # cv.waitKey(0)
 
-cap = cv.VideoCapture("Opencv 3original.mp4")
+cap = cv.VideoCapture("original.mp4")
 while True:
   success, img = cap.read()
   cv.imshow("Video",img)
